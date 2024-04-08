@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodDay</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header id="main-header">
+      <h1 class="title">Welcome to Food Day App! 🍜</h1>
+    </header>
+
+    <main id="main-content">
+      <h1 id="thanksForSignup" class="hidden-btn">Thanks For Sign-up 🙏🏻</h1>
+
+      <p class="description"></p>
+
+      <form id="login-form" class="hidden-btn submit">
+        <label for="email">Email:</label><br />
+        <input type="email" id="Lemail" name="email" /><br />
+        <label for="password">Password:</label><br />
+        <input type="password" id="Lpassword" name="password" /><br />
+        <input type="submit" value="Submit" class="submit" />
+      </form>
+
+      <form id="signup-form" class="hidden-btn submit">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" /><br />
+        <label for="surname">Surname:</label><br />
+        <input type="text" id="surname" name="surname" /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" /><br />
+        <label for="password">Password:</label><br />
+        <input type="password" id="password" name="password" /><br />
+        <input type="submit" value="Submit" class="submit" />
+      </form>
+
+      <div class="button-group">
+        <button class="btn signup" data-tab="tab1">signup</button>
+        <button class="btn login" data-tab="tab2">Login</button>
+        <button class="btn about" data-tab="tab3">About</button>
+      </div>
+      <section id="section1" class="background-section"></section>
+      <section id="section2" class="background-section"></section>
+      <section id="section3" class="background-section"></section>
+      <section id="section4" class="background-section"></section>
+      <div class="tab-content">
+        <h1 id="tab1" class="tab hidden tabs">Enter Your Details Below</h1>
+        <h1 id="tab2" class="tab hidden tabs">Enter your login details</h1>
+        <div id="tab3" class="hidden tab3">
+          <h2>About us 🍜</h2>
+
+          <p>
+            We are your go-to destination for culinary inspiration! Designed for
+            food enthusiasts who appreciate delicious flavors, simple recipes,
+            and a vibrant community. Whether you're a seasoned home chef or a
+            casual cook, we have something for everyone.
+          </p>
+
+          <h3>Our Journey 🍖</h3>
+
+          <p>
+            Our journey began with a simple idea - to create a platform where
+            food lovers can explore a diverse collection of mouthwatering
+            recipes from around the world. From quick and easy weeknight meals
+            to decadent desserts, we aimed to satisfy every craving.
+          </p>
+
+          <h3>Our Services 🥗</h3>
+
+          <p>
+            We offer personalized menus tailored to your dietary preferences and
+            lifestyle. Whether you're vegetarian, gluten-free, or simply looking
+            for healthier options, we make it easy to find recipes that suit
+            your needs.
+          </p>
+
+          <h3>Our Community 🍤</h3>
+
+          <p>
+            We are proud of our welcoming community of food lovers. Here, you
+            can share your culinary creations, discover new recipes, and connect
+            with fellow enthusiasts. From recipe swaps to cooking tips, our
+            community is here to support and inspire you on your culinary
+            journey.
+          </p>
+
+          <h3>Our Commitment 🌯</h3>
+
+          <p>
+            We're committed to promoting sustainable and ethical food practices.
+            We prioritize fresh, seasonal ingredients and support local farmers
+            and producers whenever possible. Our goal is to empower you to make
+            conscious food choices that are good for you and the planet.
+          </p>
+
+          <h3>Join Us Today 🍲</h3>
+
+          <p>
+            Ready to discover the joy of cooking with FoodDay? Simply click the
+            "About" button in the app to learn more about what we offer. Join
+            our community of food lovers and start exploring the wonderful world
+            of flavors and cuisines today!
+          </p>
+        </div>
+      </div>
+      <div id="cookies-message" class="hideCookies">
+        <p>
+          We use cookies to enhance your experience. By continuing to visit this
+          site, you agree to our use of cookies.
+        </p>
+        <button id="accept-cookies" class="hideCookies">Accept</button>
+      </div>
+    </main>
+
+    <footer id="main-footer"></footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
